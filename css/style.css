@@ -13,7 +13,6 @@
 /* inizio header */
 header{
     height: 120px;
-    background-color: red;
     padding: 25px 20px;
 }
 
@@ -48,7 +47,6 @@ main{
     height: 600px;
     display: flex;
     flex-wrap: wrap;
-    background-color: coral;
 }
 
 .square{
@@ -69,7 +67,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: yellow;
 }
 
 footer .container{
