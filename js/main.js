@@ -15,6 +15,7 @@ for (let i = 1; i <= 100; i++) {
     
         function () {
             currentSquare.classList.toggle("active");
+            console.log(i);
         }   
     
     );
