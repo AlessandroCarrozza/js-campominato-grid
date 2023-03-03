@@ -1,5 +1,53 @@
+
+/* UTILITY */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* -------- CODE -------- */  
+
+/* inizio header */
+header{
+    height: 120px;
+    background-color: red;
+    padding: 25px 20px;
+}
+
+header .container{
+    height: 70px;
+    max-width: 1170px;
+    border: 3px solid black;
+    margin: auto;
+    display: flex;
+}
+/* fine header */
+
+
+
+/* inizio main */
+main{
+    height: calc(100vh - 120px - 80px);
+    background-color: aquamarine;
+}
+/* fine main */
+
+
+
+/* inizio footer */
+footer{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+footer .container{
+    width: 1170px;
+    padding: 0 20px;
+}
+/* fine footer */
