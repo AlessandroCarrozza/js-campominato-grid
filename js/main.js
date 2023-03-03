@@ -3,7 +3,6 @@
 const gridDom = document.getElementById("grid");
 const btnPlayDom = document.getElementById("btn-play");
 
-
 for (let i = 1; i <= 100; i++) {
    
     const currentSquare = createSquare();
@@ -19,15 +18,18 @@ for (let i = 1; i <= 100; i++) {
         }   
     
     );
-}
 
-btnPlayDom.addEventListener("click" , 
+    btnPlayDom.addEventListener("click" , 
 
     function() {
         gridDom.classList.remove("d-none");
+        currentSquare.classList.remove("active");
     }
 
 );
+}
+
+
 
 
 // function per la creazione di square
