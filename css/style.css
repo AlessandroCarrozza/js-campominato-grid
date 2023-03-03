@@ -57,6 +57,14 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.active{
+    background-color: coral;
+}
+
+#grid.d-none{
+    display: none;
+}
 /* fine main */
 
 

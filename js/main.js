@@ -1,7 +1,7 @@
 
-// collegamento al DOM di container-square
+// collegamenti con il DOM 
 const gridDom = document.getElementById("grid");
-
+const btnPlayDom = document.getElementById("btn-play");
 
 
 for (let i = 1; i <= 100; i++) {
@@ -10,9 +10,23 @@ for (let i = 1; i <= 100; i++) {
     
     gridDom.append(currentSquare);
     currentSquare.append(i);
+
+    currentSquare.addEventListener("click" , 
+    
+        function () {
+            currentSquare.classList.toggle("active");
+        }   
+    
+    );
 }
 
+btnPlayDom.addEventListener("click" , 
 
+    function() {
+        gridDom.classList.remove("d-none");
+    }
+
+);
 
 
 // function per la creazione di square
