@@ -6,9 +6,7 @@ const gridDom = document.getElementById("grid");
 
 
 
-btnPlayDom.addEventListener("click" , 
-
-    function () {
+btnPlayDom.addEventListener("click" , function () {
 
         const level = levelDom.value;
         createNewGame(level);
